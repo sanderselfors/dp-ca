@@ -1,4 +1,4 @@
-import { createClient } from "@/utils/supabase/server"; // Update import statement to match correct location
+import { createClient } from "@/utils/supabase/server";
 
 export default async function handler(req, res) {
   try {
